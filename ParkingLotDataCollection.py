@@ -8,7 +8,7 @@ def loadAllData():
 	"Loads all parking data"
 	id = 0		
 	bonnData = Bonn.loadBonnData(id)
-	dateTime = datetime.datetime.now().isoformat()
+	dateTime = datetime.datetime.now().isoformat().replace(":", "-").replace(".", "-")
 	with open('./savedData/' + dateTime + '.json', 'w') as f:
 		f.write(bonnData)
 	print ("Done")
