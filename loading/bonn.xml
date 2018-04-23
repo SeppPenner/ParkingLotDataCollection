@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<parkhaeuser>
+   <parkhaus>
+      <lfdnr>1</lfdnr>
+      <bezeichnung>bahnhof.txt</bezeichnung>
+      <gesamt>114</gesamt>
+      <frei>000</frei>
+      <status>1</status>
+      <zeitstempel>22.04.2018 20:55</zeitstempel>
+      <tendenz>3</tendenz>
+   </parkhaus>
+   <parkhaus>
+      <lfdnr>2</lfdnr>
+      <bezeichnung>beethoven.txt</bezeichnung>
+      <gesamt>416</gesamt>
+      <frei>344</frei>
+      <status>0</status>
+      <zeitstempel>22.04.2018 20:55</zeitstempel>
+      <tendenz>3</tendenz>
+   </parkhaus>
+   <parkhaus>
+      <lfdnr>3</lfdnr>
+      <bezeichnung>friedensplatz.txt</bezeichnung>
+      <gesamt>810</gesamt>
+      <frei>652</frei>
+      <status>0</status>
+      <zeitstempel>22.04.2018 20:55</zeitstempel>
+      <tendenz>3</tendenz>
+   </parkhaus>
+   <parkhaus>
+      <lfdnr>4</lfdnr>
+      <bezeichnung>markt.txt</bezeichnung>
+      <gesamt>305</gesamt>
+      <frei>194</frei>
+      <status>0</status>
+      <zeitstempel>22.04.2018 20:55</zeitstempel>
+      <tendenz>3</tendenz>
+   </parkhaus>
+   <parkhaus>
+      <lfdnr>5</lfdnr>
+      <bezeichnung>muensterplatz.txt</bezeichnung>
+      <gesamt>312</gesamt>
+      <frei>286</frei>
+      <status>0</status>
+      <zeitstempel>22.04.2018 20:55</zeitstempel>
+      <tendenz>2</tendenz>
+   </parkhaus>
+   <parkhaus>
+      <lfdnr>6</lfdnr>
+      <bezeichnung>stadthaus.txt</bezeichnung>
+      <gesamt>320</gesamt>
+      <frei>144</frei>
+      <status>0</status>
+      <zeitstempel>22.04.2018 20:55</zeitstempel>
+      <tendenz>3</tendenz>
+   </parkhaus>
+</parkhaeuser>
