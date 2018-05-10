@@ -2,17 +2,17 @@
 
 ParkingLotDataCollection is written and tested in Python 3.6.2. Its purpose is to unify parking lot data from APIs in Germany.
 
-[![Build status](https://ci.appveyor.com/api/projects/status/7f5smko34w24nvjd?svg=true)](https://ci.appveyor.com/project/SeppPenner/compare2images)
-[![GitHub issues](https://img.shields.io/github/issues/SeppPenner/Compare2Images.svg)](https://github.com/SeppPenner/Compare2Images/issues)
-[![GitHub forks](https://img.shields.io/github/forks/SeppPenner/Compare2Images.svg)](https://github.com/SeppPenner/Compare2Images/network)
-[![GitHub stars](https://img.shields.io/github/stars/SeppPenner/Compare2Images.svg)](https://github.com/SeppPenner/Compare2Images/stargazers)
-[![GitHub license](https://img.shields.io/badge/license-AGPL-blue.svg)](https://raw.githubusercontent.com/SeppPenner/Compare2Images/master/License.txt)
+[![Build status](https://ci.appveyor.com/api/projects/status/a9lu5hfoog851evq?svg=true)](https://ci.appveyor.com/project/SeppPenner/parkinglotdatacollection)
+[![GitHub issues](https://img.shields.io/github/issues/SeppPenner/ParkingLotDataCollection.svg)](https://github.com/SeppPenner/ParkingLotDataCollection/issues)
+[![GitHub forks](https://img.shields.io/github/forks/SeppPenner/ParkingLotDataCollection.svg)](https://github.com/SeppPenner/ParkingLotDataCollection/network)
+[![GitHub stars](https://img.shields.io/github/stars/SeppPenner/ParkingLotDataCollection.svg)](https://github.com/SeppPenner/ParkingLotDataCollection/stargazers)
+[![GitHub license](https://img.shields.io/badge/license-AGPL-blue.svg)](https://raw.githubusercontent.com/SeppPenner/ParkingLotDataCollection/master/License.txt)
 
 ## How does it work:
 
-The main file "ParkingLotDataCollection.py" includes the data aggregators from each city and combines and saves the data into one file (under the [savedData]() subfolder).
+The main file "ParkingLotDataCollection.py" includes the data aggregators from each city and combines and saves the data into one file (under the [savedData](https://github.com/SeppPenner/ParkingLotDataCollection/tree/master/savedData) subfolder).
 
-Staged data / raw data will be loaded to the [loading]() subfolder and overwritten.
+Staged data / raw data will be loaded to the [loading](https://github.com/SeppPenner/ParkingLotDataCollection/tree/master/loading) subfolder and overwritten.
 
 ## How do you start the project:
 
@@ -101,6 +101,10 @@ Python ParkingLotDataCollection.py
 }]
 ```
 
+## The result:
+
+The result is a .json file for the current status of the parking lots: [2018-05-10T18-07-51-533760.json](https://github.com/SeppPenner/ParkingLotDataCollection/tree/master/savedData/2018-05-10T18-07-51-533760.json).
+
 ## Sources:
 https://www.govdata.de/apps/-/details/parkhaeuser-bn; License: Limited usage
 
@@ -166,3 +170,8 @@ http://datarun.s3.amazonaws.com/parkdaten_Duesseldorf.geojson
 ### Kassel:
 https://www.mcloud.de/web/guest/suche/-/results/detail/mdmparkdatenkassel?_mysearchportlet_backURL=https%3A%2F%2Fwww.mcloud.de%2Fweb%2Fguest%2Fsuche%2F-%2Fresults%2FsearchAction%3F_mysearchportlet_query%3Dparkplatzbelegung%26_mysearchportlet_page%3D1&_mysearchportlet_query=parkplatzbelegung
 http://datarun.s3.amazonaws.com/parkdaten_Kassel.geojson
+
+Change history
+--------------
+
+* **Version 1.0.0.0 (2018-05-02)** : 1.0 release.
