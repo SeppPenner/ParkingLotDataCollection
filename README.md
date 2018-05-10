@@ -31,11 +31,11 @@ Python ParkingLotDataCollection.py
    "totalParkingLots":"5",
    "freeParkingLots":"1",
    "height": "2 m",
-   "trend":"2",
+   "trend":"More free parking lots are available",
    "status": "Open",
    "timestamp":"2018-04-11T12:45:00.000Z",
    "prices":"1 € per hour",
-   "type":"Car park", #https://de.wikipedia.org/wiki/Parkplatz
+   "type":"Car park",
    "numberOfDisabledParkingLots":"2",
    "freeDisabledParkingLots":"1",
    "numberOfElectroParkingLots":"5",
@@ -69,11 +69,11 @@ Python ParkingLotDataCollection.py
    "totalParkingLots":"5",
    "freeParkingLots":"1",
    "height": "2 m",
-   "trend":"2",
+   "trend":"Less free parking lots are available",
    "status": "Open",
    "timestamp":"2018-04-11T12:45:00.000Z",
    "prices":"1 € per hour",
-   "type":"Car park", #https://de.wikipedia.org/wiki/Parkplatz
+   "type":"Car park",
    "numberOfDisabledParkingLots":"2",
    "freeDisabledParkingLots":"1",
    "numberOfElectroParkingLots":"5",
@@ -104,8 +104,14 @@ Python ParkingLotDataCollection.py
 ## The result:
 
 The result is a .json file for the current status of the parking lots: [2018-05-10T18-07-51-533760.json](https://github.com/SeppPenner/ParkingLotDataCollection/tree/master/savedData/2018-05-10T18-07-51-533760.json).
+The formatted version-via [JSONLint](https://jsonlint.com/)-can be found there, too: [2018-05-10T18-07-51-533760_formatted.json](https://github.com/SeppPenner/ParkingLotDataCollection/tree/master/savedData/2018-05-10T18-07-51-533760_formatted.json).
+
+## Additional information regarding the parking lot type can be found on Wikipedia:
+
+https://de.wikipedia.org/wiki/Parkplatz or https://en.wikipedia.org/wiki/Parking_lot
 
 ## Sources:
+
 https://www.govdata.de/apps/-/details/parkhaeuser-bn; License: Limited usage
 
 https://offenedaten-koeln.de/dataset/parkhausbelegung; License: Creative Commons Namensnennung 3.0 DE
@@ -136,16 +142,21 @@ http://archiv.transparenz.hamburg.de/hmbtgarchive/HMDK/hh_wfs_parkraum_12663_sna
 
 ### Allgemein:
 https://www.mcloud.de/web/guest/suche/-/results/searchAction?_mysearchportlet_query=parkplatzbelegung
+
 https://offenedaten.de/dataset?q=parkh%C3%A4user&sort=score+desc%2C+metadata_modified+desc
 
 ### Bonn:
 https://www.govdata.de/apps/-/details/parkhaeuser-bn
+
 https://opendata.bonn.de/dataset/parkh%C3%A4user-parkhausbelegung
+
 https://www.europeandataportal.eu/data/de/dataset/parkhaeuser-bn
 
 ### Frankfurt:
 http://offenedaten.frankfurt.de/dataset/parkdaten-dynamisch
+
 https://www.mcloud.de/web/guest/suche/-/results/detail/mdmparkdatenfrankfurt?_mysearchportlet_backURL=https%3A%2F%2Fwww.mcloud.de%2Fweb%2Fguest%2Fsuche%2F-%2Fresults%2FsearchAction%3F_mysearchportlet_query%3Dparkplatzbelegung%26_mysearchportlet_page%3D1&_mysearchportlet_query=parkplatzbelegung
+
 http://datarun.s3.amazonaws.com/parkdaten_Frankfurt.geojson
 
 ### Köln:
@@ -165,10 +176,12 @@ https://offenedaten.de/dataset/parkhauser-munchen
 
 ### Düsseldorf:
 https://www.mcloud.de/web/guest/suche/-/results/detail/mdmparkdatenstadtdsseldorf?_mysearchportlet_backURL=https%3A%2F%2Fwww.mcloud.de%2Fweb%2Fguest%2Fsuche%2F-%2Fresults%2FsearchAction%3F_mysearchportlet_query%3Dparkplatzbelegung%26_mysearchportlet_page%3D1&_mysearchportlet_query=parkplatzbelegung
+
 http://datarun.s3.amazonaws.com/parkdaten_Duesseldorf.geojson
 
 ### Kassel:
 https://www.mcloud.de/web/guest/suche/-/results/detail/mdmparkdatenkassel?_mysearchportlet_backURL=https%3A%2F%2Fwww.mcloud.de%2Fweb%2Fguest%2Fsuche%2F-%2Fresults%2FsearchAction%3F_mysearchportlet_query%3Dparkplatzbelegung%26_mysearchportlet_page%3D1&_mysearchportlet_query=parkplatzbelegung
+
 http://datarun.s3.amazonaws.com/parkdaten_Kassel.geojson
 
 Change history
