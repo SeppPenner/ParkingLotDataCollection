@@ -5,6 +5,7 @@
    "longitude":"12.1022014",
    "totalParkingLots":"5",
    "freeParkingLots":"1",
+   "height": "2 m",
    "trend":"2",
    "status": "Open",
    "timestamp":"2018-04-11T12:45:00.000Z",
@@ -31,7 +32,9 @@
       "houseNumber":"22a",
       "additionalInformation":"In the backyard"
    },
-   "operator":"Parking Company GmbH"
+   "operator":"Parking Company GmbH",
+   "telephone":"0049134/12235234",
+   "website": "test.de"
 },
 {  
    "id":"2",
@@ -40,6 +43,7 @@
    "longitude":"12.1022014",
    "totalParkingLots":"5",
    "freeParkingLots":"1",
+   "height": "2 m",
    "trend":"2",
    "status": "Open",
    "timestamp":"2018-04-11T12:45:00.000Z",
@@ -66,5 +70,7 @@
       "houseNumber":"22a",
       "additionalInformation":"In the backyard"
    },
-   "operator":"Parking Company GmbH"
+   "operator":"Parking Company GmbH",
+   "telephone":"0049134/12235234",
+   "website": "test.de"
 }]

@@ -6,52 +6,52 @@
     <gesamt>114</gesamt>
     <frei>000</frei>
     <status>1</status>
-    <zeitstempel>23.04.2018 21:13</zeitstempel>
+    <zeitstempel>10.05.2018 13:42</zeitstempel>
     <tendenz>3</tendenz>
   </parkhaus>
   <parkhaus>
     <lfdnr>2</lfdnr>
     <bezeichnung>beethoven.txt</bezeichnung>
     <gesamt>416</gesamt>
-    <frei>346</frei>
+    <frei>381</frei>
     <status>0</status>
-    <zeitstempel>23.04.2018 21:13</zeitstempel>
+    <zeitstempel>10.05.2018 13:42</zeitstempel>
     <tendenz>3</tendenz>
   </parkhaus>
   <parkhaus>
     <lfdnr>3</lfdnr>
     <bezeichnung>friedensplatz.txt</bezeichnung>
     <gesamt>810</gesamt>
-    <frei>634</frei>
+    <frei>665</frei>
     <status>0</status>
-    <zeitstempel>23.04.2018 21:13</zeitstempel>
-    <tendenz>2</tendenz>
+    <zeitstempel>10.05.2018 13:42</zeitstempel>
+    <tendenz>3</tendenz>
   </parkhaus>
   <parkhaus>
     <lfdnr>4</lfdnr>
     <bezeichnung>markt.txt</bezeichnung>
     <gesamt>305</gesamt>
-    <frei>144</frei>
+    <frei>176</frei>
     <status>0</status>
-    <zeitstempel>23.04.2018 21:13</zeitstempel>
+    <zeitstempel>10.05.2018 13:42</zeitstempel>
     <tendenz>3</tendenz>
   </parkhaus>
   <parkhaus>
     <lfdnr>5</lfdnr>
     <bezeichnung>muensterplatz.txt</bezeichnung>
     <gesamt>312</gesamt>
-    <frei>247</frei>
+    <frei>276</frei>
     <status>0</status>
-    <zeitstempel>23.04.2018 21:13</zeitstempel>
-    <tendenz>3</tendenz>
+    <zeitstempel>10.05.2018 13:42</zeitstempel>
+    <tendenz>2</tendenz>
   </parkhaus>
   <parkhaus>
     <lfdnr>6</lfdnr>
     <bezeichnung>stadthaus.txt</bezeichnung>
     <gesamt>320</gesamt>
-    <frei>091</frei>
+    <frei>165</frei>
     <status>0</status>
-    <zeitstempel>23.04.2018 21:13</zeitstempel>
-    <tendenz>2</tendenz>
+    <zeitstempel>10.05.2018 13:42</zeitstempel>
+    <tendenz>3</tendenz>
   </parkhaus>
 </parkhaeuser>
