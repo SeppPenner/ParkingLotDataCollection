@@ -187,4 +187,4 @@ http://datarun.s3.amazonaws.com/parkdaten_Kassel.geojson
 Change history
 --------------
 
-* **Version 1.0.0.0 (2018-05-02)** : 1.0 release.
+* **Version 1.0.0.0 (2018-05-10)** : 1.0 release.
