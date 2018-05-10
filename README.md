@@ -1,11 +1,105 @@
 # ParkingLotDataCollection
+
 ParkingLotDataCollection is written and tested in Python 3.6.2. Its purpose is to unify parking lot data from APIs in Germany.
+
+[![Build status](https://ci.appveyor.com/api/projects/status/7f5smko34w24nvjd?svg=true)](https://ci.appveyor.com/project/SeppPenner/compare2images)
+[![GitHub issues](https://img.shields.io/github/issues/SeppPenner/Compare2Images.svg)](https://github.com/SeppPenner/Compare2Images/issues)
+[![GitHub forks](https://img.shields.io/github/forks/SeppPenner/Compare2Images.svg)](https://github.com/SeppPenner/Compare2Images/network)
+[![GitHub stars](https://img.shields.io/github/stars/SeppPenner/Compare2Images.svg)](https://github.com/SeppPenner/Compare2Images/stargazers)
+[![GitHub license](https://img.shields.io/badge/license-AGPL-blue.svg)](https://raw.githubusercontent.com/SeppPenner/Compare2Images/master/License.txt)
 
 ## How does it work:
 
 The main file "ParkingLotDataCollection.py" includes the data aggregators from each city and combines and saves the data into one file (under the [savedData]() subfolder).
 
 Staged data / raw data will be loaded to the [loading]() subfolder and overwritten.
+
+## How do you start the project:
+
+```python
+Python ParkingLotDataCollection.py
+```
+
+## How does the unified data look like:
+
+```json
+[{  
+   "id":"1",
+   "name":"ParkingLot",
+   "latitude":"49.0199231",
+   "longitude":"12.1022014",
+   "totalParkingLots":"5",
+   "freeParkingLots":"1",
+   "height": "2 m",
+   "trend":"2",
+   "status": "Open",
+   "timestamp":"2018-04-11T12:45:00.000Z",
+   "prices":"1 € per hour",
+   "type":"Car park", #https://de.wikipedia.org/wiki/Parkplatz
+   "numberOfDisabledParkingLots":"2",
+   "freeDisabledParkingLots":"1",
+   "numberOfElectroParkingLots":"5",
+   "freeOfElectroParkingLots":"1",
+   "numberOfFamilyParkingLots":"10",
+   "freeOfFamilyParkingLots":"2",
+   "numberOfWomenParkingLots":"4",
+   "freeOfWomenParkingLots":"3",
+   "numberOfPremiumParkingLots":"10",
+   "freeOfPremiumParkingLots":"1",
+   "premiumParkingLotPrices":"5 € per hour",
+   "openingTimes":"Monday to Friday from 8 am to 11 pm",
+   "address":{  
+      "country":"Germany",
+      "state":"Bavaria",
+      "city":"Regensburg",
+      "zipCode":"93047",
+      "street":"Blumenstraße",
+      "houseNumber":"22a",
+      "additionalInformation":"In the backyard"
+   },
+   "operator":"Parking Company GmbH",
+   "telephone":"0049134/12235234",
+   "website": "test.de"
+},
+{  
+   "id":"2",
+   "name":"ParkingLot",
+   "latitude":"49.0199231",
+   "longitude":"12.1022014",
+   "totalParkingLots":"5",
+   "freeParkingLots":"1",
+   "height": "2 m",
+   "trend":"2",
+   "status": "Open",
+   "timestamp":"2018-04-11T12:45:00.000Z",
+   "prices":"1 € per hour",
+   "type":"Car park", #https://de.wikipedia.org/wiki/Parkplatz
+   "numberOfDisabledParkingLots":"2",
+   "freeDisabledParkingLots":"1",
+   "numberOfElectroParkingLots":"5",
+   "freeOfElectroParkingLots":"1",
+   "numberOfFamilyParkingLots":"10",
+   "freeOfFamilyParkingLots":"2",
+   "numberOfWomenParkingLots":"4",
+   "freeOfWomenParkingLots":"3",
+   "numberOfPremiumParkingLots":"10",
+   "freeOfPremiumParkingLots":"1",
+   "premiumParkingLotPrices":"5 € per hour",
+   "openingTimes":"Monday to Friday from 8 am to 11 pm",
+   "address":{  
+      "country":"Germany",
+      "state":"Bavaria",
+      "city":"Regensburg",
+      "zipCode":"93047",
+      "street":"Blumenstraße",
+      "houseNumber":"22a",
+      "additionalInformation":"In the backyard"
+   },
+   "operator":"Parking Company GmbH",
+   "telephone":"0049134/12235234",
+   "website": "test.de"
+}]
+```
 
 ## Sources:
 https://www.govdata.de/apps/-/details/parkhaeuser-bn; License: Limited usage

@@ -1,2 +1,0 @@
-München: https://www.opengov-muenchen.de/dataset/addaa7d4-40be-4621-846e-c5358cbe3f26/resource/76554a21-34bc-4f62-b609-8af20e0ad9d7/download/2018-05-10parkhaeuser-muenchen.json
---> Immer mit aktuellem Datum abfragen, keine Belegungsdaten
