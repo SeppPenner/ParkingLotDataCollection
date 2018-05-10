@@ -2,14 +2,12 @@ import requests
 import sys
 import xml.etree.ElementTree as ET
 
-filePath = './loading/bonn.xml'
-
 def loadData(id):
 	"Loads parking lot data for the city Bonn"
 	response = requests.get("http://www.bcp-bonn.de/stellplatz/bcpinfo.xml")
-	with open(filePath, 'wb') as f:
+	with open('./loading/bonn.xml', 'wb') as f:
 		f.write(response.content)
-	tree = ET.parse(filePath)
+	tree = ET.parse('./loading/bonn.xml')
 	root = tree.getroot()
 	data = []
 	for parkingSpace in root.findall('parkhaus'):
@@ -27,7 +25,7 @@ def loadData(id):
 		'"state":"North Rhine-Westphalia", "city":"Bonn", "zipCode":"53111", "street":"' + getStreetsForBonn(id) + '", "houseNumber":"Unknown", ' + \
 		'"additionalInformation":"Unknown" }, "operator":"Bonner City Parkraum GmbH", "telephone":"02 28 / 96 99 191", "website": "' + getWebsiteForId(id) + '"}')
 		id = id + 1
-	return (id, data)
+	return '[' + ','.join(data) + ']'
 
 def getLatitudeForBonn(id):
 	"Loads the latitude for a parking spot in Bonn by its number"

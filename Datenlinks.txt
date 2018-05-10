@@ -9,9 +9,28 @@ https://www.europeandataportal.eu/data/de/dataset/parkhaeuser-bn
 
 Frankfurt:
 http://offenedaten.frankfurt.de/dataset/parkdaten-dynamisch
+https://www.mcloud.de/web/guest/suche/-/results/detail/mdmparkdatenfrankfurt?_mysearchportlet_backURL=https%3A%2F%2Fwww.mcloud.de%2Fweb%2Fguest%2Fsuche%2F-%2Fresults%2FsearchAction%3F_mysearchportlet_query%3Dparkplatzbelegung%26_mysearchportlet_page%3D1&_mysearchportlet_query=parkplatzbelegung
+http://datarun.s3.amazonaws.com/parkdaten_Frankfurt.geojson
 
 Köln:
 https://offenedaten-koeln.de/dataset/parkhausbelegung
 
 Hamburg:
 https://www.govdata.de/daten/-/details/parkhauser-hamburg7
+
+Braunschweig:
+https://offenedaten.de/dataset/parkangebote-und-aktuelle-parksituation-in-der-innenstadt-braunschweig
+
+Münster:
+https://offenedaten.de/dataset/parkleitsystem-api-munster
+
+München:
+https://offenedaten.de/dataset/parkhauser-munchen
+
+Düsseldorf:
+https://www.mcloud.de/web/guest/suche/-/results/detail/mdmparkdatenstadtdsseldorf?_mysearchportlet_backURL=https%3A%2F%2Fwww.mcloud.de%2Fweb%2Fguest%2Fsuche%2F-%2Fresults%2FsearchAction%3F_mysearchportlet_query%3Dparkplatzbelegung%26_mysearchportlet_page%3D1&_mysearchportlet_query=parkplatzbelegung
+http://datarun.s3.amazonaws.com/parkdaten_Duesseldorf.geojson
+
+Kassel:
+https://www.mcloud.de/web/guest/suche/-/results/detail/mdmparkdatenkassel?_mysearchportlet_backURL=https%3A%2F%2Fwww.mcloud.de%2Fweb%2Fguest%2Fsuche%2F-%2Fresults%2FsearchAction%3F_mysearchportlet_query%3Dparkplatzbelegung%26_mysearchportlet_page%3D1&_mysearchportlet_query=parkplatzbelegung
+http://datarun.s3.amazonaws.com/parkdaten_Kassel.geojson
