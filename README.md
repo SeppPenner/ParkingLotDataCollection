@@ -1,6 +1,6 @@
 # ParkingLotDataCollection
 
-ParkingLotDataCollection is written and tested in Python 3.6.5. Its purpose is to unify parking lot data from APIs in Germany.
+ParkingLotDataCollection is written and tested in Python 3.7.1. Its purpose is to unify parking lot data from APIs in Germany.
 
 [![Build status](https://ci.appveyor.com/api/projects/status/a9lu5hfoog851evq?svg=true)](https://ci.appveyor.com/project/SeppPenner/parkinglotdatacollection)
 [![GitHub issues](https://img.shields.io/github/issues/SeppPenner/ParkingLotDataCollection.svg)](https://github.com/SeppPenner/ParkingLotDataCollection/issues)
