@@ -1,0 +1,2 @@
+requests==2.21.0
+elementtree==1.2.6-20050316
