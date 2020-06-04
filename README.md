@@ -1,6 +1,6 @@
 # ParkingLotDataCollection
 
-ParkingLotDataCollection is written and tested in Python 3.7.4. Its purpose is to unify parking lot data from APIs in Germany.
+ParkingLotDataCollection is written and tested in Python 3. Its purpose is to unify parking lot data from APIs in Germany.
 
 [![Build status](https://ci.appveyor.com/api/projects/status/a9lu5hfoog851evq?svg=true)](https://ci.appveyor.com/project/SeppPenner/parkinglotdatacollection)
 [![GitHub issues](https://img.shields.io/github/issues/SeppPenner/ParkingLotDataCollection.svg)](https://github.com/SeppPenner/ParkingLotDataCollection/issues)
@@ -188,5 +188,4 @@ http://datarun.s3.amazonaws.com/parkdaten_Kassel.geojson
 Change history
 --------------
 
-* **Version 1.0.0.1 (2019-09-29)** : Updated python version, updated requirements.
-* **Version 1.0.0.0 (2018-05-10)** : 1.0 release.
+See the [Changelog](https://github.com/SeppPenner/ParkingLotDataCollection/blob/master/Changelog.md).
