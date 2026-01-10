@@ -1,2 +1,1 @@
 requests==2.32.5
-elementtree==1.2.6-20050316
